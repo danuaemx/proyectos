@@ -1,0 +1,1 @@
+#Algorítmos en Open Mp para C
