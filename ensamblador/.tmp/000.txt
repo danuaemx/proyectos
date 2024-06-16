@@ -1,0 +1,95 @@
+0	Fase0
+1	.stack segment
+2	.segmento stack 2
+3	dw   128  dup(0)
+4	da 112 dup(0)
+5	ends
+6	.data segment
+7	.data segment
+8	pkey db "press any key...$"
+9	var1 ds "hola"
+10	var2 dw 11 dup('h')
+11	const1 equ 100
+12	vardb db 00100011b
+13	dupla2 dw 10 dup('ho')
+14	dupla3 db -10 dup('s')
+15	pkey dw "hola"
+16	var db -10
+17	vr db 8
+18	var3 db -1000
+19	vardw dw 5000
+20	ends
+21	.code segment
+22	start:
+23	mov ax, bx
+24	int 021h
+25	int 21h
+26	int 'a'
+27	inc si
+28	inc var
+29	inc algo
+30	aam 1
+31	aam
+32	aad 023h
+33	aad
+34	cmpsb 'hola'
+35	cmpsb
+36	nop var
+37	nop
+38	cmc pkey
+39	cmc
+40	popa
+41	popa 123
+42	mul vardw
+43	mul si
+44	mul hola
+45	mul 'nose'
+46	prueba:
+47	idiv vr
+48	idiv vardw
+49	idiv ax
+50	int 021h
+51	int 'a'
+52	int var1
+53	ja prueba
+54	ja hola
+55	jc start
+56	jc var1
+57	jnae start
+58	jnae 'hola'
+59	jnle prueba
+60	jnle ax,bx
+61	jne start
+62	jne
+63	loope prueba
+64	loope [si]
+65	lea pkey, ax
+66	lea ax, pkey
+67	lea pkey, dx
+68	lea dx, pkey
+69	xor ax, 10
+70	xor ah, al
+71	xor bx, vardw
+72	xor vardb, cl
+73	xor ax, const1
+74	xor vardb, 5
+75	xor vardb, const1
+76	xor vardb, vardb
+77	or ax, 10
+78	or ah, al
+79	or bx, vardw
+80	or vardb, cl
+81	or ax, const1
+82	or vardb, 5
+83	or vardb, const1
+84	or vardb, vardb
+85	and ax, 10
+86	and ah, al
+87	and bx, vardw
+88	and vardb, cl
+89	and ax, const1
+90	and vardb, 5
+91	and vardb, const1
+92	and vardb, vardb
+93	end start
+94	ends

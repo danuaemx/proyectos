@@ -1,0 +1,221 @@
+0	fase1
+1.1	.stack segment	#pseudoinstrucción segmento
+2.1	.segmento	#compuesto error
+2.2	stack	#compuesto simbolo
+2.3	2	#inmediato constante numérica decimal byte db a dw
+3.1	dw	#pseudoinstrucción word dw
+3.2	128	#inmediato constante numérica decimal byte db a dw
+3.3	dup(0)	#compuesto dupla tipo inmediato constante numérica decimal byte db a dw
+4.1	da	#compuesto simbolo
+4.2	112	#inmediato constante numérica decimal byte db a dw
+4.3	dup(0)	#compuesto dupla tipo inmediato constante numérica decimal byte db a dw
+5.1	ends	#pseudoinstrucción fin segmento
+6.1	.data segment	#pseudoinstrucción segmento
+7.1	.data segment	#pseudoinstrucción segmento
+8.1	pkey	#compuesto simbolo
+8.2	db	#pseudoinstrucción byte db
+8.3	"press any key...$"	#inmediato constante letra cadena
+9.1	var1	#compuesto simbolo
+9.2	ds	#registro de segmento dw
+9.3	"hola"	#inmediato constante letra cadena
+10.1	var2	#compuesto simbolo
+10.2	dw	#pseudoinstrucción word dw
+10.3	11	#inmediato constante numérica decimal byte db a dw
+10.4	dup('h')	#compuesto dupla tipo inmediato constante letra caracter byte db a dw
+11.1	const1	#compuesto simbolo
+11.2	equ	#pseudoinstrucción word constante equ
+11.3	100	#inmediato constante numérica decimal byte db a dw
+12.1	vardb	#compuesto simbolo
+12.2	db	#pseudoinstrucción byte db
+12.3	00100011b	#inmediato constante numérica binario byte db a dw
+13.1	dupla2	#compuesto simbolo
+13.2	dw	#pseudoinstrucción word dw
+13.3	10	#inmediato constante numérica decimal byte db a dw
+13.4	dup('ho')	#compuesto dupla tipo inmediato constante letradoble letra word dw
+14.1	dupla3	#compuesto simbolo
+14.2	db	#pseudoinstrucción byte db
+14.3	-10	#inmediato constante numérica decimal byte db a dw con signo
+14.4	dup('s')	#compuesto dupla tipo inmediato constante letra caracter byte db a dw
+15.1	pkey	#compuesto simbolo
+15.2	dw	#pseudoinstrucción word dw
+15.3	"hola"	#inmediato constante letra cadena
+16.1	var	#compuesto simbolo
+16.2	db	#pseudoinstrucción byte db
+16.3	-10	#inmediato constante numérica decimal byte db a dw con signo
+17.1	vr	#compuesto simbolo
+17.2	db	#pseudoinstrucción byte db
+17.3	8	#inmediato constante numérica decimal byte db a dw
+18.1	var3	#compuesto simbolo
+18.2	db	#pseudoinstrucción byte db
+18.3	-1000	#inmediato constante numérica decimal word dw con signo
+19.1	vardw	#compuesto simbolo
+19.2	dw	#pseudoinstrucción word dw
+19.3	5000	#inmediato constante numérica decimal word dw
+20.1	ends	#pseudoinstrucción fin segmento
+21.1	.code segment	#pseudoinstrucción segmento
+22.1	start:	#compuesto etiqueta declarada
+23.1	mov	#compuesto simbolo
+23.2	ax	#registro general 16bits dw
+23.3	bx	#registro general 16bits dw
+24.1	int	#instrucción 1 op.
+24.2	021h	#inmediato constante numérica hexadecimal byte db a dw
+25.1	int	#instrucción 1 op.
+25.2	21h	#compuesto error
+26.1	int	#instrucción 1 op.
+26.2	'a'	#inmediato constante letra caracter byte db a dw
+27.1	inc	#instrucción 1 op.
+27.2	si	#registro de ínidice dw
+28.1	inc	#instrucción 1 op.
+28.2	var	#compuesto simbolo
+29.1	inc	#instrucción 1 op.
+29.2	algo	#compuesto simbolo
+30.1	aam	#instrucción 0 ops.
+30.2	1	#inmediato constante numérica decimal byte db a dw
+31.1	aam	#instrucción 0 ops.
+32.1	aad	#instrucción 0 ops.
+32.2	023h	#inmediato constante numérica hexadecimal byte db a dw
+33.1	aad	#instrucción 0 ops.
+34.1	cmpsb	#instrucción 0 ops.
+34.2	'hola'	#inmediato constante letra cadena
+35.1	cmpsb	#instrucción 0 ops.
+36.1	nop	#instrucción 0 ops.
+36.2	var	#compuesto simbolo
+37.1	nop	#instrucción 0 ops.
+38.1	cmc	#instrucción 0 ops.
+38.2	pkey	#compuesto simbolo
+39.1	cmc	#instrucción 0 ops.
+40.1	popa	#instrucción 0 ops.
+41.1	popa	#instrucción 0 ops.
+41.2	123	#inmediato constante numérica decimal byte db a dw
+42.1	mul	#instrucción 1 op.
+42.2	vardw	#compuesto simbolo
+43.1	mul	#instrucción 1 op.
+43.2	si	#registro de ínidice dw
+44.1	mul	#instrucción 1 op.
+44.2	hola	#compuesto simbolo
+45.1	mul	#instrucción 1 op.
+45.2	'nose'	#inmediato constante letra cadena
+46.1	prueba:	#compuesto etiqueta declarada
+47.1	idiv	#instrucción 1 op.
+47.2	vr	#compuesto simbolo
+48.1	idiv	#instrucción 1 op.
+48.2	vardw	#compuesto simbolo
+49.1	idiv	#instrucción 1 op.
+49.2	ax	#registro general 16bits dw
+50.1	int	#instrucción 1 op.
+50.2	021h	#inmediato constante numérica hexadecimal byte db a dw
+51.1	int	#instrucción 1 op.
+51.2	'a'	#inmediato constante letra caracter byte db a dw
+52.1	int	#instrucción 1 op.
+52.2	var1	#compuesto simbolo
+53.1	ja	#instrucción 1 op.
+53.2	prueba	#compuesto simbolo
+54.1	ja	#instrucción 1 op.
+54.2	hola	#compuesto simbolo
+55.1	jc	#instrucción 1 op.
+55.2	start	#compuesto simbolo
+56.1	jc	#instrucción 1 op.
+56.2	var1	#compuesto simbolo
+57.1	jnae	#instrucción 1 op.
+57.2	start	#compuesto simbolo
+58.1	jnae	#instrucción 1 op.
+58.2	'hola'	#inmediato constante letra cadena
+59.1	jnle	#instrucción 1 op.
+59.2	prueba	#compuesto simbolo
+60.1	jnle	#instrucción 1 op.
+60.2	ax	#registro general 16bits dw
+60.3	bx	#registro general 16bits dw
+61.1	jne	#instrucción 1 op.
+61.2	start	#compuesto simbolo
+62.1	jne	#instrucción 1 op.
+63.1	loope	#instrucción 1 op.
+63.2	prueba	#compuesto simbolo
+64.1	loope	#instrucción 1 op.
+64.2	[si]	#compuesto direccionamiento
+65.1	lea	#instrucción 2 ops.
+65.2	pkey	#compuesto simbolo
+65.3	ax	#registro general 16bits dw
+66.1	lea	#instrucción 2 ops.
+66.2	ax	#registro general 16bits dw
+66.3	pkey	#compuesto simbolo
+67.1	lea	#instrucción 2 ops.
+67.2	pkey	#compuesto simbolo
+67.3	dx	#registro general 16bits dw
+68.1	lea	#instrucción 2 ops.
+68.2	dx	#registro general 16bits dw
+68.3	pkey	#compuesto simbolo
+69.1	xor	#instrucción 2 ops.
+69.2	ax	#registro general 16bits dw
+69.3	10	#inmediato constante numérica decimal byte db a dw
+70.1	xor	#instrucción 2 ops.
+70.2	ah	#registro general 8bits db
+70.3	al	#registro general 8bits db
+71.1	xor	#instrucción 2 ops.
+71.2	bx	#registro general 16bits dw
+71.3	vardw	#compuesto simbolo
+72.1	xor	#instrucción 2 ops.
+72.2	vardb	#compuesto simbolo
+72.3	cl	#registro general 8bits db
+73.1	xor	#instrucción 2 ops.
+73.2	ax	#registro general 16bits dw
+73.3	const1	#compuesto simbolo
+74.1	xor	#instrucción 2 ops.
+74.2	vardb	#compuesto simbolo
+74.3	5	#inmediato constante numérica decimal byte db a dw
+75.1	xor	#instrucción 2 ops.
+75.2	vardb	#compuesto simbolo
+75.3	const1	#compuesto simbolo
+76.1	xor	#instrucción 2 ops.
+76.2	vardb	#compuesto simbolo
+76.3	vardb	#compuesto simbolo
+77.1	or	#instrucción 2 ops.
+77.2	ax	#registro general 16bits dw
+77.3	10	#inmediato constante numérica decimal byte db a dw
+78.1	or	#instrucción 2 ops.
+78.2	ah	#registro general 8bits db
+78.3	al	#registro general 8bits db
+79.1	or	#instrucción 2 ops.
+79.2	bx	#registro general 16bits dw
+79.3	vardw	#compuesto simbolo
+80.1	or	#instrucción 2 ops.
+80.2	vardb	#compuesto simbolo
+80.3	cl	#registro general 8bits db
+81.1	or	#instrucción 2 ops.
+81.2	ax	#registro general 16bits dw
+81.3	const1	#compuesto simbolo
+82.1	or	#instrucción 2 ops.
+82.2	vardb	#compuesto simbolo
+82.3	5	#inmediato constante numérica decimal byte db a dw
+83.1	or	#instrucción 2 ops.
+83.2	vardb	#compuesto simbolo
+83.3	const1	#compuesto simbolo
+84.1	or	#instrucción 2 ops.
+84.2	vardb	#compuesto simbolo
+84.3	vardb	#compuesto simbolo
+85.1	and	#instrucción 2 ops.
+85.2	ax	#registro general 16bits dw
+85.3	10	#inmediato constante numérica decimal byte db a dw
+86.1	and	#instrucción 2 ops.
+86.2	ah	#registro general 8bits db
+86.3	al	#registro general 8bits db
+87.1	and	#instrucción 2 ops.
+87.2	bx	#registro general 16bits dw
+87.3	vardw	#compuesto simbolo
+88.1	and	#instrucción 2 ops.
+88.2	vardb	#compuesto simbolo
+88.3	cl	#registro general 8bits db
+89.1	and	#instrucción 2 ops.
+89.2	ax	#registro general 16bits dw
+89.3	const1	#compuesto simbolo
+90.1	and	#instrucción 2 ops.
+90.2	vardb	#compuesto simbolo
+90.3	5	#inmediato constante numérica decimal byte db a dw
+91.1	and	#instrucción 2 ops.
+91.2	vardb	#compuesto simbolo
+91.3	const1	#compuesto simbolo
+92.1	and	#instrucción 2 ops.
+92.2	vardb	#compuesto simbolo
+92.3	vardb	#compuesto simbolo
+93.1	end	#compuesto simbolo
+93.2	start	#compuesto simbolo
+94.1	ends	#pseudoinstrucción fin segmento
