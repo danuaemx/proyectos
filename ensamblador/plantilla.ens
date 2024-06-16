@@ -1,0 +1,125 @@
+.stack segment
+.segmento stack 2
+    dw   128  dup(0)
+    da 112 dup(0)
+ends
+
+.data segment
+    .data segment
+    ; add your data here!
+    pkey db "press any key...$"
+    var1 ds "hola"
+    var2 dw 11 dup('h')
+    const1 equ 100
+    vardb db 00100011b
+    dupla2 dw 10 dup('ho')
+    dupla3 db -10 dup('s')
+    pkey dw "hola"
+    var db -10
+    vr db 8 ; comentario
+    var3 db -1000
+    vardw dw 5000
+ends
+
+.code segment
+start:
+
+    mov ax, bx
+
+    int 021h
+    int 21h
+    int 'a'
+
+    inc si
+    inc var
+    inc algo
+
+    aam 1
+    aam
+
+    aad 023h
+    aad
+
+    cmpsb 'hola'
+    cmpsb
+
+    nop var
+    nop
+
+    cmc pkey
+    cmc
+
+    popa
+    popa 123
+
+    mul vardw
+    mul si
+    mul hola
+    mul 'nose'
+
+    prueba:
+
+    idiv vr
+    idiv vardw
+    idiv ax
+
+    int 021h
+    int 'a'
+    int var1
+
+    ja prueba
+    ja hola
+
+    jc start
+    jc var1
+
+    jnae start
+    jnae 'hola'
+
+    jnle prueba
+    jnle ax,bx
+
+    jne start
+    jne 
+
+    loope prueba
+    loope [si]
+
+    lea pkey, ax
+    lea ax, pkey
+
+    lea pkey, dx
+    lea dx, pkey
+
+    xor ax, 10
+    xor ah, al
+    xor bx, vardw
+    xor vardb, cl
+    xor ax, const1
+    xor vardb, 5
+    xor vardb, const1
+    xor vardb, vardb
+
+    or ax, 10
+    or ah, al
+    or bx, vardw
+    or vardb, cl
+    or ax, const1
+    or vardb, 5
+    or vardb, const1
+    or vardb, vardb
+
+    and ax, 10
+    and ah, al
+    and bx, vardw
+    and vardb, cl
+    and ax, const1
+    and vardb, 5
+    and vardb, const1
+    and vardb, vardb
+
+    
+
+end start ; set entry point and stop the assembler.
+ends
+
