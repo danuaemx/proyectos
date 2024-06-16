@@ -1,0 +1,5 @@
+Programa que puede interpretar archivos .ens con lenguajes ensamblador
+3 segmentos .stack segement, .data segment, .code segement
+Sólo 20 instrucciones y no soporta direccionamiento []
+Despliega tabla de simbolos e instrucciones y separa el código y clasifica cada expresión tomado en cuenta separadores
+Elimina comentarios
