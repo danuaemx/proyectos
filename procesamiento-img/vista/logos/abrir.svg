@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="40"
+   height="40"
+   viewBox="0 0 10.583333 10.583333"
+   version="1.1"
+   id="svg100034"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="abrir.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview100036"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="40mm"
+     units="px"
+     inkscape:zoom="10.571264"
+     inkscape:cx="21.709798"
+     inkscape:cy="22.324672"
+     inkscape:window-width="1366"
+     inkscape:window-height="739"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="false" />
+  <defs
+     id="defs100031" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:0.341733;fill:#008080;fill-opacity:1;stroke:none;stroke-width:3.36799;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:73.9276;stroke-opacity:1"
+       id="rect121974"
+       width="10.655725"
+       height="10.635739"
+       x="-0.0012747998"
+       y="0.041032664"
+       ry="1.1255088" />
+    <rect
+       style="opacity:1;fill:#ff5555;fill-opacity:1;stroke:none;stroke-width:3.36799;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:73.9276;stroke-opacity:1"
+       id="rect122020"
+       width="9.2088861"
+       height="2.3793621"
+       x="0.63968289"
+       y="4.1673579"
+       ry="0.96792382" />
+    <rect
+       style="opacity:0.959718;fill:#ff5555;fill-opacity:1;stroke:none;stroke-width:3.36799;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:73.9276;stroke-opacity:1"
+       id="rect122020-7"
+       width="9.2088861"
+       height="2.3793621"
+       x="0.83058208"
+       y="-6.5601139"
+       ry="1.1896811"
+       transform="rotate(90)" />
+  </g>
+</svg>

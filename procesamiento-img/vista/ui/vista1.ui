@@ -1,0 +1,4345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Principal</class>
+ <widget class="QMainWindow" name="Principal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>IMM-i</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../logos/logo_p.svg</normaloff>../logos/logo_p.svg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+background-color:rgb(40, 60, 75);
+}
+
+QPushButton{
+border:none;
+border-radius:5px;
+}
+
+QPushButton:hover{
+background-color: rgb(30,30,45);
+}
+
+QFrame{
+border:none;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="regilla_hv">
+   <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>10</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame_h">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <layout class="QVBoxLayout" name="layout_vista">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QDockWidget" name="dock_herramientas">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>280</width>
+     <height>395</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>280</width>
+     <height>524287</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolButton{
+border:none;
+border-radius:5px;
+}
+
+QToolButton:hover{
+background-color: rgb(30,30,45);
+}
+
+QFrame{
+border:none;
+}
+
+QWidget{
+background-color:rgb(45, 67, 84);
+}
+
+QToolButton:checked {
+    border: 4px double gray; 
+    background-color: rgb(50,50,50);
+}
+
+QSpinBox {
+	border-radius:5px;
+	border: 5px double gray;
+}
+
+QSpinBox:focus {
+    background-color:  rgb(30,30,45);
+}
+
+QSpinBox:hover {
+    background-color:  rgb(30,30,45);
+}
+
+QDoubleSpinBox {
+	border-radius:5px;
+	border: 5px double gray;
+}
+
+QDoubleSpinBox:focus {
+    background-color:  rgb(30,30,45);
+}
+
+QDoubleSpinBox:hover {
+    background-color:  rgb(30,30,45);
+}
+</string>
+   </property>
+   <property name="features">
+    <set>QDockWidget::DockWidgetFloatable|QDockWidget::DockWidgetMovable</set>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::LeftDockWidgetArea|Qt::RightDockWidgetArea</set>
+   </property>
+   <property name="windowTitle">
+    <string>Herramientas</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents">
+    <layout class="QVBoxLayout" name="verticalLayout_9">
+     <item>
+      <widget class="QToolBox" name="toolBox">
+       <property name="currentIndex">
+        <number>6</number>
+       </property>
+       <property name="tabSpacing">
+        <number>6</number>
+       </property>
+       <widget class="QWidget" name="page_color">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>248</width>
+          <height>529</height>
+         </rect>
+        </property>
+        <attribute name="icon">
+         <iconset>
+          <normaloff>../logos/color_barra.svg</normaloff>../logos/color_barra.svg</iconset>
+        </attribute>
+        <attribute name="label">
+         <string>Color</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_7">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <property name="horizontalSpacing">
+          <number>0</number>
+         </property>
+         <property name="verticalSpacing">
+          <number>10</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QFrame" name="frame_3">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_5">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <property name="horizontalSpacing">
+             <number>15</number>
+            </property>
+            <property name="verticalSpacing">
+             <number>0</number>
+            </property>
+            <item row="8" column="0">
+             <widget class="QToolButton" name="expo">
+              <property name="text">
+               <string>Exponencial</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/exp_f.svg</normaloff>../logos/exp_f.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="1">
+             <widget class="QToolButton" name="toolButton_17">
+              <property name="text">
+               <string>Red-Green</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/a_lab.svg</normaloff>../logos/a_lab.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QToolButton" name="toolButton_14">
+              <property name="text">
+               <string>Intensidad</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/val.svg</normaloff>../logos/val.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QToolButton" name="toolButton_11">
+              <property name="text">
+               <string>Contraste</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/contraste.svg</normaloff>../logos/contraste.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QToolButton" name="toolButton_15">
+              <property name="text">
+               <string>Luminosidad</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/lum.svg</normaloff>../logos/lum.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="0">
+             <widget class="QToolButton" name="negativo">
+              <property name="text">
+               <string>Negativo</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/neg_prev.svg</normaloff>../logos/neg_prev.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QToolButton" name="toolButton_13">
+              <property name="text">
+               <string>Saturación</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/sat.svg</normaloff>../logos/sat.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QFrame" name="frame_sat_sp">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_15">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QSpinBox" name="sp_sat">
+                 <property name="buttonSymbols">
+                  <enum>QAbstractSpinBox::NoButtons</enum>
+                 </property>
+                 <property name="minimum">
+                  <number>1</number>
+                 </property>
+                 <property name="maximum">
+                  <number>200</number>
+                 </property>
+                 <property name="value">
+                  <number>100</number>
+                 </property>
+                 <property name="displayIntegerBase">
+                  <number>10</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="sat_pos">
+                 <property name="text">
+                  <string>*</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../logos/multip.svg</normaloff>../logos/multip.svg</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QFrame" name="frame_brillo_sp">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_19">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QToolButton" name="brillo_neg">
+                 <property name="text">
+                  <string>-</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../logos/negativ.svg</normaloff>../logos/negativ.svg</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="sp_brillo">
+                 <property name="buttonSymbols">
+                  <enum>QAbstractSpinBox::NoButtons</enum>
+                 </property>
+                 <property name="minimum">
+                  <number>0</number>
+                 </property>
+                 <property name="maximum">
+                  <number>128</number>
+                 </property>
+                 <property name="value">
+                  <number>0</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="brillo_pos">
+                 <property name="text">
+                  <string>+</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../logos/posit.svg</normaloff>../logos/posit.svg</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="10" column="0">
+             <widget class="QToolButton" name="sepia3">
+              <property name="text">
+               <string>Sepia Rojo</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/sep_c_prev.svg</normaloff>../logos/sep_c_prev.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="1">
+             <widget class="QFrame" name="frame_b_sp">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_13">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QToolButton" name="b_neg">
+                 <property name="text">
+                  <string>-</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../logos/negativ.svg</normaloff>../logos/negativ.svg</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="sp_b">
+                 <property name="buttonSymbols">
+                  <enum>QAbstractSpinBox::NoButtons</enum>
+                 </property>
+                 <property name="minimum">
+                  <number>0</number>
+                 </property>
+                 <property name="maximum">
+                  <number>100</number>
+                 </property>
+                 <property name="singleStep">
+                  <number>1</number>
+                 </property>
+                 <property name="value">
+                  <number>0</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="b_pos">
+                 <property name="text">
+                  <string>+</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../logos/posit.svg</normaloff>../logos/posit.svg</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="9" column="1">
+             <widget class="QToolButton" name="sepia1">
+              <property name="text">
+               <string>Sepia Viejo</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/sep_v_prev.svg</normaloff>../logos/sep_v_prev.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="1">
+             <widget class="QToolButton" name="loga">
+              <property name="text">
+               <string>Logarítmico</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/log_f.svg</normaloff>../logos/log_f.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <widget class="QToolButton" name="toolButton_16">
+              <property name="text">
+               <string>Yellow-Blue</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/b_lab.svg</normaloff>../logos/b_lab.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="1">
+             <widget class="QToolButton" name="sepia2">
+              <property name="text">
+               <string>Sepia Clásico</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/sep_c_prev_r.svg</normaloff>../logos/sep_c_prev_r.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextBesideIcon</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="0">
+             <widget class="QFrame" name="frame_a_sp">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_14">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QToolButton" name="a_neg">
+                 <property name="text">
+                  <string>-</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../logos/negativ.svg</normaloff>../logos/negativ.svg</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="sp_a">
+                 <property name="buttonSymbols">
+                  <enum>QAbstractSpinBox::NoButtons</enum>
+                 </property>
+                 <property name="maximum">
+                  <number>100</number>
+                 </property>
+                 <property name="value">
+                  <number>0</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="a_pos">
+                 <property name="text">
+                  <string>+</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../logos/posit.svg</normaloff>../logos/posit.svg</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QFrame" name="frame_inten_sp">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_17">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QSpinBox" name="sp_inten">
+                 <property name="buttonSymbols">
+                  <enum>QAbstractSpinBox::NoButtons</enum>
+                 </property>
+                 <property name="minimum">
+                  <number>1</number>
+                 </property>
+                 <property name="maximum">
+                  <number>180</number>
+                 </property>
+                 <property name="value">
+                  <number>100</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="inten_pos">
+                 <property name="text">
+                  <string>*</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../logos/multip.svg</normaloff>../logos/multip.svg</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QFrame" name="frame_lum_sp">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_20">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QToolButton" name="lum_neg">
+                 <property name="text">
+                  <string>-</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../logos/negativ.svg</normaloff>../logos/negativ.svg</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="sp_lum">
+                 <property name="buttonSymbols">
+                  <enum>QAbstractSpinBox::NoButtons</enum>
+                 </property>
+                 <property name="maximum">
+                  <number>100</number>
+                 </property>
+                 <property name="value">
+                  <number>0</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="lum_pos">
+                 <property name="text">
+                  <string>+</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../logos/posit.svg</normaloff>../logos/posit.svg</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QToolButton" name="toolButton_10">
+              <property name="text">
+               <string>Brilllo</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/brillo.svg</normaloff>../logos/brillo.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QFrame" name="frame_hue_sp">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_18">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QToolButton" name="hue_neg">
+                 <property name="text">
+                  <string>-</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../logos/negativ.svg</normaloff>../logos/negativ.svg</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="sp_hue">
+                 <property name="buttonSymbols">
+                  <enum>QAbstractSpinBox::NoButtons</enum>
+                 </property>
+                 <property name="minimum">
+                  <number>0</number>
+                 </property>
+                 <property name="maximum">
+                  <number>180</number>
+                 </property>
+                 <property name="value">
+                  <number>0</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="hue_pos">
+                 <property name="text">
+                  <string>+</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../logos/posit.svg</normaloff>../logos/posit.svg</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QToolButton" name="toolButton_12">
+              <property name="text">
+               <string>Color</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/hue.svg</normaloff>../logos/hue.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QFrame" name="frame_contraste_sp">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_16">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QSpinBox" name="contraste_sp">
+                 <property name="buttonSymbols">
+                  <enum>QAbstractSpinBox::NoButtons</enum>
+                 </property>
+                 <property name="minimum">
+                  <number>1</number>
+                 </property>
+                 <property name="maximum">
+                  <number>200</number>
+                 </property>
+                 <property name="value">
+                  <number>100</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="contraste_mul">
+                 <property name="text">
+                  <string>*</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../logos/multip.svg</normaloff>../logos/multip.svg</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QFrame" name="frame_4">
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QToolButton" name="transformar">
+              <property name="text">
+               <string>Transformada manual</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/transf.svg</normaloff>../logos/transf.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QFrame" name="frame_5">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_14">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <item row="0" column="0">
+                <layout class="QGridLayout" name="gridLayout_13">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <item row="1" column="0">
+                  <layout class="QHBoxLayout" name="horizontalLayout_6">
+                   <property name="spacing">
+                    <number>0</number>
+                   </property>
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <widget class="QCheckBox" name="n_tr">
+                     <property name="text">
+                      <string>Normalizar</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="acept_tr">
+                     <property name="text">
+                      <string>Aplicar</string>
+                     </property>
+                     <property name="icon">
+                      <iconset>
+                       <normaloff>../logos/aceptar_c.svg</normaloff>../logos/aceptar_c.svg</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>25</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="toolButtonStyle">
+                      <enum>Qt::ToolButtonFollowStyle</enum>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item row="0" column="0">
+                  <layout class="QGridLayout" name="gridLayout_12">
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="spacing">
+                    <number>0</number>
+                   </property>
+                   <item row="0" column="1">
+                    <widget class="QDoubleSpinBox" name="sp_tr_01">
+                     <property name="buttonSymbols">
+                      <enum>QAbstractSpinBox::NoButtons</enum>
+                     </property>
+                     <property name="minimum">
+                      <double>0.000000000000000</double>
+                     </property>
+                     <property name="maximum">
+                      <double>10.000000000000000</double>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QDoubleSpinBox" name="sp_tr_11">
+                     <property name="buttonSymbols">
+                      <enum>QAbstractSpinBox::NoButtons</enum>
+                     </property>
+                     <property name="minimum">
+                      <double>0.000000000000000</double>
+                     </property>
+                     <property name="maximum">
+                      <double>10.000000000000000</double>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QDoubleSpinBox" name="sp_tr_10">
+                     <property name="buttonSymbols">
+                      <enum>QAbstractSpinBox::NoButtons</enum>
+                     </property>
+                     <property name="minimum">
+                      <double>0.000000000000000</double>
+                     </property>
+                     <property name="maximum">
+                      <double>10.000000000000000</double>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="2">
+                    <widget class="QDoubleSpinBox" name="sp_tr_12">
+                     <property name="buttonSymbols">
+                      <enum>QAbstractSpinBox::NoButtons</enum>
+                     </property>
+                     <property name="minimum">
+                      <double>0.000000000000000</double>
+                     </property>
+                     <property name="maximum">
+                      <double>10.000000000000000</double>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="2">
+                    <widget class="QDoubleSpinBox" name="sp_tr_22">
+                     <property name="buttonSymbols">
+                      <enum>QAbstractSpinBox::NoButtons</enum>
+                     </property>
+                     <property name="minimum">
+                      <double>0.000000000000000</double>
+                     </property>
+                     <property name="maximum">
+                      <double>10.000000000000000</double>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QDoubleSpinBox" name="sp_tr_20">
+                     <property name="buttonSymbols">
+                      <enum>QAbstractSpinBox::NoButtons</enum>
+                     </property>
+                     <property name="minimum">
+                      <double>0.000000000000000</double>
+                     </property>
+                     <property name="maximum">
+                      <double>10.000000000000000</double>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QDoubleSpinBox" name="sp_tr_00">
+                     <property name="buttonSymbols">
+                      <enum>QAbstractSpinBox::NoButtons</enum>
+                     </property>
+                     <property name="minimum">
+                      <double>0.000000000000000</double>
+                     </property>
+                     <property name="maximum">
+                      <double>10.000000000000000</double>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="2">
+                    <widget class="QDoubleSpinBox" name="sp_tr_02">
+                     <property name="buttonSymbols">
+                      <enum>QAbstractSpinBox::NoButtons</enum>
+                     </property>
+                     <property name="minimum">
+                      <double>0.000000000000000</double>
+                     </property>
+                     <property name="maximum">
+                      <double>10.000000000000000</double>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QDoubleSpinBox" name="sp_tr_21">
+                     <property name="buttonSymbols">
+                      <enum>QAbstractSpinBox::NoButtons</enum>
+                     </property>
+                     <property name="minimum">
+                      <double>0.000000000000000</double>
+                     </property>
+                     <property name="maximum">
+                      <double>10.000000000000000</double>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_espacial">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>248</width>
+          <height>504</height>
+         </rect>
+        </property>
+        <attribute name="icon">
+         <iconset>
+          <normaloff>../logos/espacial.svg</normaloff>../logos/espacial.svg</iconset>
+        </attribute>
+        <attribute name="label">
+         <string>Espacial</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_13">
+         <property name="spacing">
+          <number>15</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QFrame" name="frame_11">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_10">
+            <item row="0" column="1">
+             <widget class="QToolButton" name="espejo_v">
+              <property name="text">
+               <string>Espejo V</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/espejo_v.svg</normaloff>../logos/espejo_v.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QToolButton" name="eliminar_roi_bt">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="text">
+               <string>Eliminar ROI</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/del_roi.svg</normaloff>../logos/del_roi.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QToolButton" name="rotar90">
+              <property name="text">
+               <string>Rotar Izq.</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/rotar_izq.svg</normaloff>../logos/rotar_izq.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QToolButton" name="rotar90neg">
+              <property name="text">
+               <string>Rotar Der.</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/rotar_der.svg</normaloff>../logos/rotar_der.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QToolButton" name="pegar_roi_bt">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="text">
+               <string>Pegar ROI</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/pegar.svg</normaloff>../logos/pegar.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QToolButton" name="copiar_roi_bt">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="text">
+               <string>Copiar ROI</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/copiar.svg</normaloff>../logos/copiar.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QToolButton" name="espejo_h">
+              <property name="text">
+               <string>Espejo H</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/espejo_h.svg</normaloff>../logos/espejo_h.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QToolButton" name="roi_bt">
+              <property name="styleSheet">
+               <string notr="true">QToolButton{
+border: 1px double gray;
+}
+
+</string>
+              </property>
+              <property name="text">
+               <string>ROI</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/roi.svg</normaloff>../logos/roi.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="checkable">
+               <bool>true</bool>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextBesideIcon</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_redimen">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_15">
+            <item>
+             <widget class="QToolButton" name="redimensionar">
+              <property name="text">
+               <string>Redimensión</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/redim.svg</normaloff>../logos/redim.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QGridLayout" name="gridLayout_8">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <item row="0" column="1">
+               <widget class="QSpinBox" name="sp_alto_redim">
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="minimum">
+                 <number>1</number>
+                </property>
+                <property name="maximum">
+                 <number>100000</number>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QToolButton" name="alto_redim">
+                <property name="text">
+                 <string>Alto</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QToolButton" name="ancho_redim">
+                <property name="text">
+                 <string>Ancho</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QSpinBox" name="sp_ancho_redim">
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="minimum">
+                 <number>1</number>
+                </property>
+                <property name="maximum">
+                 <number>100000</number>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QCheckBox" name="block_ratio">
+                <property name="text">
+                 <string>Bloquear relación</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QToolButton" name="aplicar_redim">
+                <property name="text">
+                 <string>Aplicar</string>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>../logos/aceptar_c.svg</normaloff>../logos/aceptar_c.svg</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>25</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="toolButtonStyle">
+                 <enum>Qt::ToolButtonFollowStyle</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_recortar">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_14">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QToolButton" name="recortar">
+              <property name="text">
+               <string>Recortar</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/recortar.svg</normaloff>../logos/recortar.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QGridLayout" name="gridLayout_18">
+              <item row="0" column="2">
+               <layout class="QHBoxLayout" name="horizontalLayout_12">
+                <item>
+                 <widget class="QSpinBox" name="x1_esq">
+                  <property name="buttonSymbols">
+                   <enum>QAbstractSpinBox::NoButtons</enum>
+                  </property>
+                  <property name="minimum">
+                   <number>1</number>
+                  </property>
+                  <property name="maximum">
+                   <number>100000</number>
+                  </property>
+                  <property name="value">
+                   <number>1</number>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="y1_esq">
+                  <property name="buttonSymbols">
+                   <enum>QAbstractSpinBox::NoButtons</enum>
+                  </property>
+                  <property name="minimum">
+                   <number>1</number>
+                  </property>
+                  <property name="maximum">
+                   <number>100000</number>
+                  </property>
+                  <property name="value">
+                   <number>1</number>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item row="1" column="0">
+               <widget class="QToolButton" name="esquina_inf_crop">
+                <property name="text">
+                 <string>Esquina 
+ inferior</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QToolButton" name="esquina_crop">
+                <property name="text">
+                 <string>Esquina 
+ superior</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <layout class="QHBoxLayout" name="horizontalLayout_21">
+                <item>
+                 <widget class="QSpinBox" name="x2_esq">
+                  <property name="buttonSymbols">
+                   <enum>QAbstractSpinBox::NoButtons</enum>
+                  </property>
+                  <property name="minimum">
+                   <number>2</number>
+                  </property>
+                  <property name="maximum">
+                   <number>100000</number>
+                  </property>
+                  <property name="value">
+                   <number>2</number>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="y2_esq">
+                  <property name="buttonSymbols">
+                   <enum>QAbstractSpinBox::NoButtons</enum>
+                  </property>
+                  <property name="minimum">
+                   <number>2</number>
+                  </property>
+                  <property name="maximum">
+                   <number>100000</number>
+                  </property>
+                  <property name="value">
+                   <number>2</number>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QToolButton" name="aplicar_crop">
+              <property name="text">
+               <string>Aplicar</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/aceptar_c.svg</normaloff>../logos/aceptar_c.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QFrame" name="frame_12">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_16">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_frec">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>248</width>
+          <height>350</height>
+         </rect>
+        </property>
+        <attribute name="icon">
+         <iconset>
+          <normaloff>../logos/frecuencia.svg</normaloff>../logos/frecuencia.svg</iconset>
+        </attribute>
+        <attribute name="label">
+         <string>Frecuencia</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_6">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <property name="horizontalSpacing">
+          <number>0</number>
+         </property>
+         <property name="verticalSpacing">
+          <number>10</number>
+         </property>
+         <item row="5" column="2">
+          <widget class="QFrame" name="frame_6">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QGridLayout" name="gridLayout">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <item row="4" column="1">
+             <widget class="QFrame" name="frame_9">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_6">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_5">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_7">
+                   <property name="spacing">
+                    <number>0</number>
+                   </property>
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <widget class="QSpinBox" name="sp_ce_min">
+                     <property name="buttonSymbols">
+                      <enum>QAbstractSpinBox::NoButtons</enum>
+                     </property>
+                     <property name="maximum">
+                      <number>255</number>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QSpinBox" name="sp_ce_max">
+                     <property name="buttonSymbols">
+                      <enum>QAbstractSpinBox::NoButtons</enum>
+                     </property>
+                     <property name="minimum">
+                      <number>1</number>
+                     </property>
+                     <property name="maximum">
+                      <number>255</number>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <widget class="QToolButton" name="aplicar_comp_exp">
+                   <property name="text">
+                    <string>Aplicar</string>
+                   </property>
+                   <property name="icon">
+                    <iconset>
+                     <normaloff>../logos/aceptar_c.svg</normaloff>../logos/aceptar_c.svg</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>17</width>
+                     <height>17</height>
+                    </size>
+                   </property>
+                   <property name="toolButtonStyle">
+                    <enum>Qt::ToolButtonFollowStyle</enum>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QToolButton" name="del_rango">
+              <property name="text">
+               <string>Eliminar 
+ rango</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/del_rang.svg</normaloff>../logos/del_rang.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QToolButton" name="comp_exp">
+              <property name="text">
+               <string>Comprimir 
+ Expandir</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/comp_exp.svg</normaloff>../logos/comp_exp.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QToolButton" name="centrar">
+              <property name="text">
+               <string>Correlación 
+ Positiva</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/co_pos.svg</normaloff>../logos/co_pos.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <layout class="QVBoxLayout" name="verticalLayout">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_5">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QSpinBox" name="sp_r_min">
+                  <property name="buttonSymbols">
+                   <enum>QAbstractSpinBox::NoButtons</enum>
+                  </property>
+                  <property name="minimum">
+                   <number>0</number>
+                  </property>
+                  <property name="maximum">
+                   <number>255</number>
+                  </property>
+                  <property name="value">
+                   <number>0</number>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="sp_r_max">
+                  <property name="buttonSymbols">
+                   <enum>QAbstractSpinBox::NoButtons</enum>
+                  </property>
+                  <property name="minimum">
+                   <number>1</number>
+                  </property>
+                  <property name="maximum">
+                   <number>255</number>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="QToolButton" name="aplicar_del_ran">
+                <property name="text">
+                 <string>Aplicar</string>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>../logos/aceptar_c.svg</normaloff>../logos/aceptar_c.svg</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>17</width>
+                  <height>17</height>
+                 </size>
+                </property>
+                <property name="toolButtonStyle">
+                 <enum>Qt::ToolButtonFollowStyle</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="0" column="1">
+             <widget class="QToolButton" name="promedio_f">
+              <property name="text">
+               <string>Correlación 
+ negativa</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/co_neg.svg</normaloff>../logos/co_neg.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QToolButton" name="ecualizar">
+              <property name="text">
+               <string>Ecualizar 
+ histograma</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/ecual.svg</normaloff>../logos/ecual.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="6" column="2">
+          <widget class="QFrame" name="frame_7">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_7">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QToolButton" name="desplazar">
+              <property name="text">
+               <string>Cortar selección</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/cort_ran.svg</normaloff>../logos/cort_ran.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QGridLayout" name="gridLayout_16">
+              <item row="0" column="2">
+               <layout class="QHBoxLayout" name="horizontalLayout_11">
+                <item>
+                 <widget class="QSpinBox" name="sp_x1_ch">
+                  <property name="buttonSymbols">
+                   <enum>QAbstractSpinBox::NoButtons</enum>
+                  </property>
+                  <property name="maximum">
+                   <number>255</number>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="sp_x2_ch">
+                  <property name="buttonSymbols">
+                   <enum>QAbstractSpinBox::NoButtons</enum>
+                  </property>
+                  <property name="minimum">
+                   <number>1</number>
+                  </property>
+                  <property name="maximum">
+                   <number>255</number>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item row="1" column="0">
+               <widget class="QToolButton" name="p_destino">
+                <property name="text">
+                 <string>Destino</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QToolButton" name="p_fuente">
+                <property name="text">
+                 <string>Fuente</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <layout class="QHBoxLayout" name="horizontalLayout_10">
+                <item>
+                 <widget class="QSpinBox" name="sp_n1_ch">
+                  <property name="buttonSymbols">
+                   <enum>QAbstractSpinBox::NoButtons</enum>
+                  </property>
+                  <property name="maximum">
+                   <number>255</number>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="sp_n2_ch">
+                  <property name="buttonSymbols">
+                   <enum>QAbstractSpinBox::NoButtons</enum>
+                  </property>
+                  <property name="minimum">
+                   <number>1</number>
+                  </property>
+                  <property name="maximum">
+                   <number>255</number>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QToolButton" name="aplicar_crop_sel">
+              <property name="text">
+               <string>Aplicar</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/aceptar_c.svg</normaloff>../logos/aceptar_c.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>17</width>
+                <height>17</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="7" column="2">
+          <widget class="QFrame" name="frame_8">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_15">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <property name="spacing">
+             <number>0</number>
+            </property>
+           </layout>
+          </widget>
+         </item>
+         <item row="10" column="2">
+          <spacer name="vertical_spacer_frec">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="8" column="2">
+          <widget class="QFrame" name="frame_10">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_8">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_ruido">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>248</width>
+          <height>542</height>
+         </rect>
+        </property>
+        <attribute name="icon">
+         <iconset>
+          <normaloff>../logos/ruido.svg</normaloff>../logos/ruido.svg</iconset>
+        </attribute>
+        <attribute name="label">
+         <string>Ruido</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_17">
+         <property name="spacing">
+          <number>15</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QFrame" name="frame_13">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_19">
+            <item row="0" column="2">
+             <widget class="QToolButton" name="gauss_c_r">
+              <property name="text">
+               <string>Pasa bajo+</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/pasa_bajo.svg</normaloff>../logos/pasa_bajo.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QToolButton" name="fft_reconstruir_r">
+              <property name="text">
+               <string>FFT 95%</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/fft95.svg</normaloff>../logos/fft95.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QToolButton" name="fft90_r">
+              <property name="text">
+               <string>FFT 90%</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/fft50.svg</normaloff>../logos/fft50.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QToolButton" name="bilateral_r">
+              <property name="text">
+               <string>Bilateral 
+ suave</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/bil_par.svg</normaloff>../logos/bil_par.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QToolButton" name="gauss_s_r">
+              <property name="text">
+               <string>Pasa bajo</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/pasa_bajo_plus.svg</normaloff>../logos/pasa_bajo_plus.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="QToolButton" name="bil_com_r">
+              <property name="text">
+               <string>Bilateral 
+ completo</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/bil_com_r.svg</normaloff>../logos/bil_com_r.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QToolButton" name="mediana_r">
+              <property name="text">
+               <string>Mediana</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/med_red.svg</normaloff>../logos/med_red.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="2">
+             <widget class="QToolButton" name="mediana_amplio_r">
+              <property name="text">
+               <string>Mediana 
+ amplio</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/med_amp.svg</normaloff>../logos/med_amp.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_14">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_18">
+            <item>
+             <widget class="QToolButton" name="fft_custom_2">
+              <property name="text">
+               <string>FFT  Manual</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/fft95.svg</normaloff>../logos/fft95.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QGridLayout" name="gridLayout_9">
+              <item row="0" column="0">
+               <widget class="QToolButton" name="niv_conf_fft">
+                <property name="text">
+                 <string>Nivel de 
+ confianza</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QSpinBox" name="sp_fft">
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="minimum">
+                 <number>50</number>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QToolButton" name="aplicar_fft">
+              <property name="text">
+               <string>Aplicar</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/aceptar_c.svg</normaloff>../logos/aceptar_c.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_15">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_19">
+            <item>
+             <widget class="QToolButton" name="bil_custom">
+              <property name="text">
+               <string>Bilateral  Manual</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/bil_par.svg</normaloff>../logos/bil_par.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QGridLayout" name="gridLayout_20">
+              <property name="leftMargin">
+               <number>9</number>
+              </property>
+              <property name="topMargin">
+               <number>9</number>
+              </property>
+              <property name="rightMargin">
+               <number>9</number>
+              </property>
+              <property name="bottomMargin">
+               <number>9</number>
+              </property>
+              <item row="1" column="0">
+               <widget class="QToolButton" name="bord_bil">
+                <property name="text">
+                 <string>Bordes</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QToolButton" name="suav_bil">
+                <property name="text">
+                 <string>Suavizado</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QSpinBox" name="sp_suav">
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="minimum">
+                 <number>2</number>
+                </property>
+                <property name="maximum">
+                 <number>11</number>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QSpinBox" name="sp_bord">
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="minimum">
+                 <number>1</number>
+                </property>
+                <property name="maximum">
+                 <number>5</number>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QToolButton" name="aplicar_bilateral">
+              <property name="text">
+               <string>Aplicar</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/aceptar_c.svg</normaloff>../logos/aceptar_c.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonFollowStyle</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_mask">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>248</width>
+          <height>420</height>
+         </rect>
+        </property>
+        <attribute name="icon">
+         <iconset>
+          <normaloff>../logos/mask.svg</normaloff>../logos/mask.svg</iconset>
+        </attribute>
+        <attribute name="label">
+         <string>Máscara</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_12">
+         <property name="spacing">
+          <number>15</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QFrame" name="frame">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_3">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <item row="0" column="0">
+             <widget class="QToolButton" name="promedio_ms">
+              <property name="text">
+               <string>Caja</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/lenna_caja.svg</normaloff>../logos/lenna_caja.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QToolButton" name="nitidez_1_ms">
+              <property name="text">
+               <string>Nitidez +</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/lenna_nitidez_plus.svg</normaloff>../logos/lenna_nitidez_plus.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QToolButton" name="nitidez_ms">
+              <property name="text">
+               <string>Nitidez</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/lenna_nitidez.svg</normaloff>../logos/lenna_nitidez.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QToolButton" name="borde_ms">
+              <property name="text">
+               <string>Borde</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/lenna_borde.svg</normaloff>../logos/lenna_borde.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QToolButton" name="blur_ms">
+              <property name="text">
+               <string>Blur</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/lenna_blur.svg</normaloff>../logos/lenna_blur.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="3">
+             <widget class="QToolButton" name="definir_ms">
+              <property name="text">
+               <string>Definir</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/lenna_definir.svg</normaloff>../logos/lenna_definir.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QToolButton" name="def_r_ms">
+              <property name="text">
+               <string>Definir +</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/lenna_definir_plus.svg</normaloff>../logos/lenna_definir_plus.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QToolButton" name="relieve_ms">
+              <property name="text">
+               <string>Relieve</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../logos/lenna_relieve.svg</normaloff>../logos/lenna_relieve.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_10">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QToolButton" name="mask_manual">
+             <property name="text">
+              <string>Máscara manual</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_2">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <layout class="QGridLayout" name="gridLayout_4">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <item row="2" column="2">
+               <widget class="QDoubleSpinBox" name="sp_ms_22">
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="minimum">
+                 <double>-10.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>10.000000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QDoubleSpinBox" name="sp_ms_01">
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="minimum">
+                 <double>-10.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>10.000000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QDoubleSpinBox" name="sp_ms_00">
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="minimum">
+                 <double>-10.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>10.000000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="2">
+               <widget class="QDoubleSpinBox" name="sp_ms_02">
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="minimum">
+                 <double>-10.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>10.000000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QDoubleSpinBox" name="sp_ms_21">
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="minimum">
+                 <double>-10.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>10.000000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QDoubleSpinBox" name="sp_ms_20">
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="minimum">
+                 <double>-10.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>10.000000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QDoubleSpinBox" name="sp_ms_10">
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="minimum">
+                 <double>-10.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>10.000000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QDoubleSpinBox" name="sp_ms_11">
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="minimum">
+                 <double>-10.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>10.000000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <widget class="QDoubleSpinBox" name="sp_ms_12">
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="minimum">
+                 <double>-10.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>10.000000000000000</double>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QCheckBox" name="n_mask">
+                <property name="text">
+                 <string>Normalizar</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QToolButton" name="acept_mask">
+                <property name="text">
+                 <string>Aceptar</string>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>../logos/aceptar_c.svg</normaloff>../logos/aceptar_c.svg</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>25</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="toolButtonStyle">
+                 <enum>Qt::ToolButtonFollowStyle</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <spacer name="vertical_spacer_mask">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>72</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_mor">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>248</width>
+          <height>297</height>
+         </rect>
+        </property>
+        <attribute name="icon">
+         <iconset>
+          <normaloff>../logos/morf.svg</normaloff>../logos/morf.svg</iconset>
+        </attribute>
+        <attribute name="label">
+         <string>Morfología</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_17">
+         <item row="4" column="1">
+          <spacer name="verticalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="3" column="1">
+          <widget class="QToolButton" name="grad_neg_morf">
+           <property name="text">
+            <string>Oscurecer 
+ bordes</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../logos/lenna_b_bord.svg</normaloff>../logos/lenna_b_bord.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>50</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonTextUnderIcon</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QToolButton" name="dilate_morf">
+           <property name="text">
+            <string>Dilatación</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../logos/lenna_dilate.svg</normaloff>../logos/lenna_dilate.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>50</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonTextUnderIcon</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QToolButton" name="grad_morf">
+           <property name="text">
+            <string>Ilumunar  
+ bordes</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../logos/lenna_w_bordes.svg</normaloff>../logos/lenna_w_bordes.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>50</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonTextUnderIcon</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QToolButton" name="erode_morf">
+           <property name="text">
+            <string>Erosión</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../logos/lenna_erode.svg</normaloff>../logos/lenna_erode.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>50</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonTextUnderIcon</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QToolButton" name="open_morf">
+           <property name="text">
+            <string>Apertura</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../logos/lenna_open.svg</normaloff>../logos/lenna_open.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>50</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonTextUnderIcon</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QToolButton" name="close_morf">
+           <property name="text">
+            <string>Clausura</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../logos/lenna_close.svg</normaloff>../logos/lenna_close.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>50</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonTextUnderIcon</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QToolButton" name="close_open_morf">
+           <property name="text">
+            <string>Remover 
+ puntos</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../logos/lenna_rm_p.svg</normaloff>../logos/lenna_rm_p.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>50</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonTextUnderIcon</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QToolButton" name="open_close_morf">
+           <property name="text">
+            <string>Suavizar 
+ contornos</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../logos/lenna_s_con.svg</normaloff>../logos/lenna_s_con.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>50</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonTextUnderIcon</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_avanzado">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>263</width>
+          <height>194</height>
+         </rect>
+        </property>
+        <attribute name="icon">
+         <iconset>
+          <normaloff>../logos/avanzado.svg</normaloff>../logos/avanzado.svg</iconset>
+        </attribute>
+        <attribute name="label">
+         <string>Avanzado</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_11">
+         <item row="2" column="0">
+          <widget class="QToolButton" name="bill_gauss">
+           <property name="text">
+            <string>Piel Porcelana</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../logos/piel_porcelana.svg</normaloff>../logos/piel_porcelana.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>25</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonFollowStyle</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <spacer name="verticalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="0" column="0">
+          <widget class="QToolButton" name="hdr_r_a">
+           <property name="text">
+            <string>HDR</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../logos/hdr.svg</normaloff>../logos/hdr.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>25</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonFollowStyle</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QToolButton" name="ruido_noct">
+           <property name="text">
+            <string>Ruido 
+ Nocturno</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../logos/ruido_noct.svg</normaloff>../logos/ruido_noct.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>25</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonFollowStyle</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QToolButton" name="reconst">
+           <property name="text">
+            <string>Reconstruir</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../logos/reconstruir_sev.svg</normaloff>../logos/reconstruir_sev.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>25</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonFollowStyle</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QToolButton" name="eliminar_rostro">
+           <property name="text">
+            <string>Eliminar rostro</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../logos/del_rostro.svg</normaloff>../logos/del_rostro.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>25</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonFollowStyle</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QToolButton" name="aceptar_del_rostro">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Aplicar</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../logos/aceptar_c.svg</normaloff>../logos/aceptar_c.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>25</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonFollowStyle</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dock_hist">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolButton{
+border:none;
+border-radius:5px;
+}
+
+QToolButton:hover{
+background-color: rgb(30,30,45);
+}
+
+QFrame{
+border:none;
+}
+
+QWidget{
+background-color:rgb(45, 67, 84);
+}
+
+QToolButton:checked {
+    border: 4px double gray; 
+    background-color: rgb(50,50,50);
+}</string>
+   </property>
+   <property name="floating">
+    <bool>false</bool>
+   </property>
+   <property name="features">
+    <set>QDockWidget::DockWidgetFloatable|QDockWidget::DockWidgetMovable</set>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::BottomDockWidgetArea|Qt::LeftDockWidgetArea|Qt::TopDockWidgetArea</set>
+   </property>
+   <property name="windowTitle">
+    <string>Histograma</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="cont_hist">
+    <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="1,0">
+     <item>
+      <layout class="QHBoxLayout" name="l_hist">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_11">
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QToolButton" name="grises_bt">
+         <property name="text">
+          <string>...</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../logos/modo_l.svg</normaloff>../logos/modo_l.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>25</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="add_cl">
+         <property name="text">
+          <string>...</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../logos/add_color.svg</normaloff>../logos/add_color.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>25</width>
+           <height>25</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="cancelar_gris_bt">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>...</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../logos/deshacer.svg</normaloff>../logos/deshacer.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>25</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="barra_herr">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionAbrirH"/>
+   <addaction name="actionGuardarH"/>
+   <addaction name="actionDeshacerH"/>
+   <addaction name="actionRehacerH"/>
+   <addaction name="actionMetadataH"/>
+   <addaction name="actionSalirH"/>
+  </widget>
+  <action name="actionGuardar">
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+  </action>
+  <action name="actionAbrir">
+   <property name="text">
+    <string>Abrir</string>
+   </property>
+  </action>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+  <action name="actionCorrelaci_n">
+   <property name="text">
+    <string>Correlación</string>
+   </property>
+  </action>
+  <action name="actionRGB">
+   <property name="text">
+    <string>RGB</string>
+   </property>
+  </action>
+  <action name="actionIntensidad">
+   <property name="text">
+    <string>Intensidad</string>
+   </property>
+  </action>
+  <action name="actionRGB_2">
+   <property name="text">
+    <string>RGB</string>
+   </property>
+  </action>
+  <action name="actionIntensidad_2">
+   <property name="text">
+    <string>Intensidad</string>
+   </property>
+  </action>
+  <action name="actionExposici_n">
+   <property name="text">
+    <string>Exposición</string>
+   </property>
+  </action>
+  <action name="actionLaplace">
+   <property name="text">
+    <string>Laplace</string>
+   </property>
+  </action>
+  <action name="actionLaplace_2">
+   <property name="text">
+    <string>Laplace</string>
+   </property>
+  </action>
+  <action name="actionExposicion">
+   <property name="text">
+    <string>Exposicion</string>
+   </property>
+  </action>
+  <action name="actionExposicion_2">
+   <property name="text">
+    <string>Exposicion</string>
+   </property>
+  </action>
+  <action name="actionSepia">
+   <property name="text">
+    <string>Sepia</string>
+   </property>
+  </action>
+  <action name="actionRellenar">
+   <property name="text">
+    <string>Rellenar</string>
+   </property>
+  </action>
+  <action name="actionAmpliar">
+   <property name="text">
+    <string>Ampliar 25%</string>
+   </property>
+  </action>
+  <action name="actionContraer">
+   <property name="text">
+    <string>Contraer 25%</string>
+   </property>
+  </action>
+  <action name="actionNormal">
+   <property name="text">
+    <string>Normal</string>
+   </property>
+  </action>
+  <action name="actionHorizontal">
+   <property name="text">
+    <string>Horizontal</string>
+   </property>
+  </action>
+  <action name="actionVertical">
+   <property name="text">
+    <string>Vertical</string>
+   </property>
+  </action>
+  <action name="actionColor">
+   <property name="text">
+    <string>Color</string>
+   </property>
+  </action>
+  <action name="actionSepia_2">
+   <property name="text">
+    <string>Sepia</string>
+   </property>
+  </action>
+  <action name="actionRecolor">
+   <property name="text">
+    <string>Recolor</string>
+   </property>
+  </action>
+  <action name="actionHerramientas">
+   <property name="text">
+    <string>Herramientas</string>
+   </property>
+  </action>
+  <action name="actionGuardar_2">
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/guardar.svg</normaloff>../logos/guardar.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+  </action>
+  <action name="actionAbrir_2">
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/abrir.svg</normaloff>../logos/abrir.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Abrir</string>
+   </property>
+  </action>
+  <action name="actionSalir_2">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+  <action name="actionAumentar_25">
+   <property name="text">
+    <string>Aumentar 25%</string>
+   </property>
+  </action>
+  <action name="actionDisminuye_25">
+   <property name="text">
+    <string>Disminuir 25%</string>
+   </property>
+  </action>
+  <action name="actionAjustar">
+   <property name="text">
+    <string>Ajustar</string>
+   </property>
+  </action>
+  <action name="actionOriginal">
+   <property name="text">
+    <string>Original</string>
+   </property>
+  </action>
+  <action name="actionSepia1">
+   <property name="text">
+    <string>Sepia1</string>
+   </property>
+  </action>
+  <action name="actionSepia2">
+   <property name="text">
+    <string>Sepia2</string>
+   </property>
+  </action>
+  <action name="actionSepia3">
+   <property name="text">
+    <string>Sepia3</string>
+   </property>
+  </action>
+  <action name="actionPromedio">
+   <property name="text">
+    <string>Promedio</string>
+   </property>
+  </action>
+  <action name="actionBlur">
+   <property name="text">
+    <string>Blur</string>
+   </property>
+  </action>
+  <action name="actionDefinir">
+   <property name="text">
+    <string>Definir</string>
+   </property>
+  </action>
+  <action name="actionDefinirR">
+   <property name="text">
+    <string>Definir R</string>
+   </property>
+  </action>
+  <action name="actionBorde">
+   <property name="text">
+    <string>Borde</string>
+   </property>
+  </action>
+  <action name="actionNitidez1">
+   <property name="text">
+    <string>Nitidez 1</string>
+   </property>
+  </action>
+  <action name="actionNitidez2">
+   <property name="text">
+    <string>Nitidez 2</string>
+   </property>
+  </action>
+  <action name="actionRelieve">
+   <property name="text">
+    <string>Relieve</string>
+   </property>
+  </action>
+  <action name="actionAdd_Color">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/add_color.svg</normaloff>../logos/add_color.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Añadir Color</string>
+   </property>
+  </action>
+  <action name="actionModo_L">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/modo_l.svg</normaloff>../logos/modo_l.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Grises</string>
+   </property>
+  </action>
+  <action name="actionTransformar">
+   <property name="text">
+    <string>Transformar</string>
+   </property>
+  </action>
+  <action name="actionHSV">
+   <property name="text">
+    <string>HSV</string>
+   </property>
+  </action>
+  <action name="actionLAB">
+   <property name="text">
+    <string>LAB</string>
+   </property>
+  </action>
+  <action name="actionExtremo_fft">
+   <property name="text">
+    <string>fft (Reconstruir-Borroso)</string>
+   </property>
+  </action>
+  <action name="actionExtraer">
+   <property name="text">
+    <string>Extraer</string>
+   </property>
+  </action>
+  <action name="actionGaussiano_Suave">
+   <property name="text">
+    <string>Gaussiano Suave</string>
+   </property>
+  </action>
+  <action name="actionGaussiano_Completo">
+   <property name="text">
+    <string>Gaussiano Completo</string>
+   </property>
+  </action>
+  <action name="actionBilateral_Gauss">
+   <property name="text">
+    <string>Bilateral Gauss(Lento)</string>
+   </property>
+  </action>
+  <action name="actionCopiar">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/copiar.svg</normaloff>../logos/copiar.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Copiar (ROI)</string>
+   </property>
+  </action>
+  <action name="actionPegar">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/pegar.svg</normaloff>../logos/pegar.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Pegar (ROI)</string>
+   </property>
+  </action>
+  <action name="actionRoi">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/roi.svg</normaloff>../logos/roi.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Roi</string>
+   </property>
+  </action>
+  <action name="actionEspejo_H">
+   <property name="text">
+    <string>Espejo H</string>
+   </property>
+  </action>
+  <action name="actionEspejo_V">
+   <property name="text">
+    <string>Espejo V</string>
+   </property>
+  </action>
+  <action name="actionAnterior">
+   <property name="text">
+    <string>Anterior</string>
+   </property>
+  </action>
+  <action name="actionSiguiente">
+   <property name="text">
+    <string>Siguiente</string>
+   </property>
+  </action>
+  <action name="actionBrillo">
+   <property name="text">
+    <string>Brillo</string>
+   </property>
+  </action>
+  <action name="actionContraste">
+   <property name="text">
+    <string>Contraste</string>
+   </property>
+  </action>
+  <action name="actionNegativo">
+   <property name="text">
+    <string>Negativo</string>
+   </property>
+  </action>
+  <action name="actionLogaritmico">
+   <property name="text">
+    <string>Logaritmico</string>
+   </property>
+  </action>
+  <action name="actionExponencial">
+   <property name="text">
+    <string>Exponencial</string>
+   </property>
+  </action>
+  <action name="actionRotar">
+   <property name="text">
+    <string>Rotar</string>
+   </property>
+  </action>
+  <action name="actionRedimensionar">
+   <property name="text">
+    <string>Redimensionar</string>
+   </property>
+  </action>
+  <action name="actionHorizontal_2">
+   <property name="text">
+    <string>Horizontal</string>
+   </property>
+  </action>
+  <action name="actionVertical_2">
+   <property name="text">
+    <string>Vertical</string>
+   </property>
+  </action>
+  <action name="actionEcualizar">
+   <property name="text">
+    <string>Ecualizar</string>
+   </property>
+  </action>
+  <action name="actionComprimir_Expandir">
+   <property name="text">
+    <string>Comprimir/Expandir</string>
+   </property>
+  </action>
+  <action name="actionResaltar">
+   <property name="text">
+    <string>Resaltar</string>
+   </property>
+  </action>
+  <action name="actionDesplazar">
+   <property name="text">
+    <string>Desplazar</string>
+   </property>
+  </action>
+  <action name="actionEliminar_rostro">
+   <property name="text">
+    <string>Eliminar rostro</string>
+   </property>
+  </action>
+  <action name="actionEliminar_Region">
+   <property name="text">
+    <string>Eliminar Región</string>
+   </property>
+  </action>
+  <action name="actionHDR">
+   <property name="text">
+    <string>HDR</string>
+   </property>
+  </action>
+  <action name="actionDeshacer">
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/deshacer.svg</normaloff>../logos/deshacer.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Deshacer</string>
+   </property>
+  </action>
+  <action name="actionRehacer">
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/rehacer.svg</normaloff>../logos/rehacer.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Rehacer</string>
+   </property>
+  </action>
+  <action name="actionColor_b">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/color_barra.svg</normaloff>../logos/color_barra.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Color</string>
+   </property>
+  </action>
+  <action name="actionEspacial_b">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/espacial.svg</normaloff>../logos/espacial.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Espacial</string>
+   </property>
+  </action>
+  <action name="actionFrecuencia_b">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/frecuencia.svg</normaloff>../logos/frecuencia.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Frecuencia</string>
+   </property>
+  </action>
+  <action name="actionRuido_b">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/ruido.svg</normaloff>../logos/ruido.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Ruido</string>
+   </property>
+  </action>
+  <action name="actionFiltro_b">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/mask.svg</normaloff>../logos/mask.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Filtro</string>
+   </property>
+  </action>
+  <action name="actionCensura_b">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/censura.svg</normaloff>../logos/censura.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Censura</string>
+   </property>
+  </action>
+  <action name="actionAvanzado_b">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/avanzado.svg</normaloff>../logos/avanzado.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Avanzado</string>
+   </property>
+  </action>
+  <action name="actionMetadata_b">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/metadata.svg</normaloff>../logos/metadata.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Metadata</string>
+   </property>
+  </action>
+  <action name="actionAbrirH">
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/abrir.svg</normaloff>../logos/abrir.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Abrir</string>
+   </property>
+  </action>
+  <action name="actionGuardat">
+   <property name="text">
+    <string>Guardat</string>
+   </property>
+  </action>
+  <action name="actionGuardarH">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/guardar.svg</normaloff>../logos/guardar.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+  </action>
+  <action name="actionDeshacerH">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/deshacer.svg</normaloff>../logos/deshacer.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Deshacer</string>
+   </property>
+  </action>
+  <action name="actionRehacerH">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/rehacer.svg</normaloff>../logos/rehacer.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Rehacer</string>
+   </property>
+  </action>
+  <action name="actionMetadataH">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/metadata.svg</normaloff>../logos/metadata.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Metadata</string>
+   </property>
+  </action>
+  <action name="actionSalirH">
+   <property name="icon">
+    <iconset>
+     <normaloff>../logos/salir.svg</normaloff>../logos/salir.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

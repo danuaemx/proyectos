@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="40"
+   height="40"
+   viewBox="0 0 10.583333 10.583334"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient20179">
+      <stop
+         style="stop-color:#00ffff;stop-opacity:1;"
+         offset="0"
+         id="stop20175" />
+      <stop
+         style="stop-color:#00ffff;stop-opacity:0;"
+         offset="1"
+         id="stop20177" />
+    </linearGradient>
+  </defs>
+  <ellipse
+     style="fill:#ff9955;fill-opacity:0.942799;stroke-width:5.90171;stroke-linecap:round;stroke-linejoin:round"
+     id="path939"
+     cx="5.3385143"
+     cy="3.8223085"
+     rx="3.6690979"
+     ry="3.8223085" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:15.0143px;line-height:1.25;font-family:sans-serif;fill:#e3dbdb;fill-opacity:1;stroke:none;stroke-width:0.375358"
+     x="0.59789288"
+     y="8.1558676"
+     id="text1254"
+     transform="scale(1.1277757,0.88670118)"><tspan
+       id="tspan1252"
+       style="fill:#e3dbdb;stroke-width:0.375358"
+       x="0.59789288"
+       y="8.1558676">x</tspan></text>
+  <rect
+     style="fill:#ff9955;fill-opacity:1;stroke-width:1.5615;stroke-linecap:round;stroke-linejoin:round"
+     id="rect1808"
+     width="2.8128779"
+     height="2.2675493"
+     x="3.8368707"
+     y="6.8293009" />
+  <rect
+     style="fill:#00ffff;fill-opacity:1;stroke-width:1.5615;stroke-linecap:round;stroke-linejoin:round"
+     id="rect1876"
+     width="10.583334"
+     height="3.198036"
+     x="0"
+     y="8.7082138"
+     ry="1.599018" />
+  <path
+     style="fill:#ff9955;fill-opacity:1;stroke-width:4.16;stroke-linecap:round;stroke-linejoin:round"
+     id="path2212"
+     d="m 20.850955,39.267716 c -0.547797,0.713909 -3.816289,-0.393585 -4.708451,-0.511037 -0.892161,-0.117451 -4.33592,0.106384 -4.680285,-0.724976 -0.344364,-0.831361 2.248999,-3.108211 2.796796,-3.822119 0.547797,-0.713909 2.07583,-3.80821 2.967991,-3.690758 0.892162,0.117452 1.56729,3.501796 1.911654,4.333156 0.344365,0.83136 2.260091,3.701826 1.712295,4.415734 z"
+     transform="matrix(0.2179648,0.24794305,-0.3205872,0.17421667,12.998806,-1.012725)" />
+</svg>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="40"
+   height="40"
+   viewBox="0 0 10.583333 10.583333"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="ruido.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="40mm"
+     units="px"
+     height="40px"
+     inkscape:zoom="11.30721"
+     inkscape:cx="18.793319"
+     inkscape:cy="19.191295"
+     inkscape:window-width="1366"
+     inkscape:window-height="739"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient12385"
+       inkscape:swatch="gradient">
+      <stop
+         style="stop-color:#27d5e4;stop-opacity:1;"
+         offset="0"
+         id="stop12381" />
+      <stop
+         style="stop-color:#d88080;stop-opacity:0;"
+         offset="1"
+         id="stop12383" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient11605"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#a0a574;stop-opacity:1;"
+         offset="0"
+         id="stop11603" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient9591"
+       inkscape:swatch="gradient">
+      <stop
+         style="stop-color:#668080;stop-opacity:1;"
+         offset="0"
+         id="stop9587" />
+      <stop
+         style="stop-color:#668080;stop-opacity:0;"
+         offset="1"
+         id="stop9589" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter11581"
+       x="-0.033920638"
+       y="-0.034880854"
+       width="1.0678413"
+       height="1.0697617">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.14578732"
+         id="feGaussianBlur11583" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient12385"
+       id="linearGradient63880"
+       gradientUnits="userSpaceOnUse"
+       x1="-0.13794174"
+       y1="5.2391722"
+       x2="10.876784"
+       y2="5.2391722" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:url(#linearGradient63880);stroke-width:0.564999;stroke-linecap:round;stroke-dashoffset:8.33687;fill-opacity:1;filter:url(#filter11581)"
+       id="rect1222"
+       width="10.314946"
+       height="10.030992"
+       x="0.21194781"
+       y="0.22367617"
+       ry="0.55720985" />
+    <ellipse
+       style="fill:#000080;fill-opacity:0.63207;stroke-width:0.452631;stroke-linecap:round;stroke-dashoffset:8.33687"
+       id="path62687"
+       cx="2.1428456"
+       cy="1.4572693"
+       rx="0.67388421"
+       ry="0.63972664" />
+    <ellipse
+       style="fill:#000080;fill-opacity:0.63207;stroke-width:0.564999;stroke-linecap:round;stroke-dashoffset:8.33687"
+       id="path62687-7"
+       cx="1.9123789"
+       cy="3.5513206"
+       rx="0.85943335"
+       ry="0.781582" />
+    <ellipse
+       style="fill:#000080;fill-opacity:0.63207;stroke-width:0.496297;stroke-linecap:round;stroke-dashoffset:8.33687"
+       id="path62687-5"
+       cx="8.2192259"
+       cy="6.7320566"
+       rx="0.76354444"
+       ry="0.67879742" />
+    <ellipse
+       style="fill:#000080;fill-opacity:0.63207;stroke-width:0.449106;stroke-linecap:round;stroke-dashoffset:8.33687"
+       id="path62687-7-9"
+       cx="8.2223082"
+       cy="8.3981724"
+       rx="0.70938307"
+       ry="0.59828621" />
+    <ellipse
+       style="fill:#000080;fill-opacity:0.63207;stroke-width:0.564999;stroke-linecap:round;stroke-dashoffset:8.33687"
+       id="path62687-5-2"
+       cx="5.1372137"
+       cy="1.8462518"
+       rx="0.85943335"
+       ry="0.781582" />
+    <ellipse
+       style="fill:#000080;fill-opacity:0.63207;stroke-width:0.564999;stroke-linecap:round;stroke-dashoffset:8.33687"
+       id="path62687-7-9-2"
+       cx="5.8462715"
+       cy="3.931046"
+       rx="0.85943335"
+       ry="0.781582" />
+    <ellipse
+       style="fill:#000080;fill-opacity:0.63207;stroke-width:0.464212;stroke-linecap:round;stroke-dashoffset:8.33687"
+       id="path62687-5-2-8"
+       cx="2.4488976"
+       cy="5.8302946"
+       rx="0.69187373"
+       ry="0.65538502" />
+    <ellipse
+       style="fill:#000080;fill-opacity:0.63207;stroke-width:0.564999;stroke-linecap:round;stroke-dashoffset:8.33687"
+       id="path62687-7-9-2-9"
+       cx="2.6462777"
+       cy="8.6837587"
+       rx="0.85943335"
+       ry="0.781582" />
+    <ellipse
+       style="fill:#000080;fill-opacity:0.63207;stroke-width:0.564999;stroke-linecap:round;stroke-dashoffset:8.33687"
+       id="path62687-5-2-8-7"
+       cx="7.4399166"
+       cy="1.8140981"
+       rx="0.85943335"
+       ry="0.781582" />
+    <ellipse
+       style="fill:#000080;fill-opacity:0.63207;stroke-width:0.564999;stroke-linecap:round;stroke-dashoffset:8.33687"
+       id="path62687-7-9-2-9-3"
+       cx="8.4062319"
+       cy="3.8952453"
+       rx="0.85943335"
+       ry="0.781582" />
+    <ellipse
+       style="fill:#000080;fill-opacity:0.63207;stroke-width:0.490021;stroke-linecap:round;stroke-dashoffset:8.33687"
+       id="path62687-5-2-8-2"
+       cx="5.3208027"
+       cy="6.5729737"
+       rx="0.75060713"
+       ry="0.67314392" />
+    <ellipse
+       style="fill:#000080;fill-opacity:0.63207;stroke-width:0.482232;stroke-linecap:round;stroke-dashoffset:8.33687"
+       id="path62687-7-9-2-9-9"
+       cx="5.2980556"
+       cy="8.5576811"
+       rx="0.73690826"
+       ry="0.66403276" />
+  </g>
+</svg>

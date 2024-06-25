@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="40"
+   height="40"
+   viewBox="0 0 10.583333 10.583334"
+   version="1.1"
+   id="svg2788"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2785">
+    <linearGradient
+       id="linearGradient12898">
+      <stop
+         style="stop-color:#241c1c;stop-opacity:1;"
+         offset="0"
+         id="stop12896" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient12872">
+      <stop
+         style="stop-color:#241c1c;stop-opacity:1;"
+         offset="0"
+         id="stop12868" />
+      <stop
+         style="stop-color:#241c1c;stop-opacity:0;"
+         offset="1"
+         id="stop12870" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient12840">
+      <stop
+         style="stop-color:#ee7979;stop-opacity:1;"
+         offset="0"
+         id="stop12838" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient10070">
+      <stop
+         style="stop-color:#00ff00;stop-opacity:1;"
+         offset="0"
+         id="stop10068" />
+    </linearGradient>
+  </defs>
+  <g
+     id="layer1">
+    <g
+       id="g14627"
+       transform="translate(-1.105184,0.37101227)">
+      <rect
+         style="fill:#ff0000;stroke-width:0.47455;stroke-linejoin:round;stroke-dashoffset:73.9276"
+         id="rect846"
+         width="1.3229166"
+         height="10.583333"
+         x="1.105184"
+         y="-0.37101227"
+         rx="1.4015763"
+         ry="5.9604645e-08" />
+      <rect
+         style="fill:#ffff00;stroke-width:0.47455;stroke-linejoin:round;stroke-dashoffset:73.9276"
+         id="rect846-2"
+         width="1.3229166"
+         height="10.583333"
+         x="2.4281006"
+         y="-0.37101197"
+         rx="1.4015763"
+         ry="5.9604645e-08" />
+      <rect
+         style="fill:#00ff00;stroke-width:0.47455;stroke-linejoin:round;stroke-dashoffset:73.9276"
+         id="rect846-6"
+         width="1.3229167"
+         height="10.583333"
+         x="3.7510171"
+         y="-0.37101221"
+         rx="1.1920929e-07"
+         ry="0" />
+      <rect
+         style="fill:#008080;stroke-width:0.47455;stroke-linejoin:round;stroke-dashoffset:73.9276"
+         id="rect846-7"
+         width="1.3229166"
+         height="10.583333"
+         x="5.0739341"
+         y="-0.37101209"
+         rx="1.4015763"
+         ry="5.9604645e-08" />
+      <rect
+         style="fill:#00ffff;stroke-width:0.47455;stroke-linejoin:round;stroke-dashoffset:73.9276"
+         id="rect846-2-0"
+         width="1.3229166"
+         height="10.583333"
+         x="6.3968506"
+         y="-0.37101173"
+         rx="1.4015763"
+         ry="5.9604645e-08" />
+      <rect
+         style="fill:#000080;stroke-width:0.47455;stroke-linejoin:round;stroke-dashoffset:73.9276"
+         id="rect846-6-9"
+         width="1.3229167"
+         height="10.583333"
+         x="7.7197671"
+         y="-0.37101197"
+         rx="1.1920929e-07"
+         ry="0" />
+      <rect
+         style="fill:#800080;stroke-width:0.47455;stroke-linejoin:round;stroke-dashoffset:73.9276"
+         id="rect846-6-9-3"
+         width="1.3229167"
+         height="10.583333"
+         x="9.0426836"
+         y="-0.37101221"
+         rx="1.1920929e-07"
+         ry="0" />
+      <rect
+         style="fill:#ff00ff;stroke-width:0.47455;stroke-linejoin:round;stroke-dashoffset:73.9276"
+         id="rect846-6-9-6"
+         width="1.3229167"
+         height="10.583333"
+         x="10.365601"
+         y="-0.37101221"
+         rx="1.1920929e-07"
+         ry="0" />
+    </g>
+    <rect
+       style="fill:#f4d7d7;stroke:none;stroke-width:0.126;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect14651"
+       width="5.6905231"
+       height="5.9637232"
+       x="4.8928099"
+       y="4.6196089"
+       rx="5.293942"
+       ry="1.0338937" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.6011px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.165028"
+       x="4.8680253"
+       y="11.442355"
+       id="text14985"
+       transform="scale(1.1467862,0.87200213)"><tspan
+         id="tspan14983"
+         style="stroke-width:0.165028"
+         x="4.8680253"
+         y="11.442355">T</tspan></text>
+  </g>
+</svg>

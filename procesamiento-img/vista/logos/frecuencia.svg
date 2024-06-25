@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="40"
+   height="40"
+   viewBox="0 0 10.583333 10.583334"
+   version="1.1"
+   id="svg30036"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="frecuencia.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview30038"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="12.138759"
+     inkscape:cx="8.6087876"
+     inkscape:cy="23.148989"
+     inkscape:window-width="1366"
+     inkscape:window-height="739"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs30033" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#008080;stroke:#008080;stroke-width:0.133229;stroke-dashoffset:8.33687"
+       id="rect30119"
+       width="1.1761301"
+       height="4.6350546"
+       x="3.5277226"
+       y="5.9530778"
+       ry="1.0650059" />
+    <rect
+       style="fill:#ff0000;stroke:none;stroke-width:0.129082;stroke-dashoffset:8.33687;fill-opacity:1"
+       id="rect30121"
+       width="1.3997672"
+       height="6.4861827"
+       x="5.3590045"
+       y="3.9158328"
+       ry="0.99974513" />
+    <rect
+       style="fill:#ff00ff;stroke:none;stroke-width:0.0824486;stroke-dashoffset:8.33687"
+       id="rect30247"
+       width="1.3338896"
+       height="5.0036845"
+       x="7.1922512"
+       y="5.1422119"
+       ry="0.59001726" />
+    <rect
+       style="fill:#00ff00;stroke:none;stroke-width:0.0789887;stroke-dashoffset:8.33687;fill-opacity:1"
+       id="rect30757"
+       width="1.150854"
+       height="4.1122799"
+       x="0.072823882"
+       y="6.4751859"
+       ry="0.66986948" />
+    <rect
+       style="fill:#ffff00;stroke:none;stroke-width:0.0897264;stroke-dashoffset:8.33687;fill-opacity:1"
+       id="rect30863"
+       width="1.3246155"
+       height="1.9643667"
+       x="1.8553368"
+       y="8.1369095"
+       ry="0.67304677" />
+    <rect
+       style="fill:#c83737;stroke:none;stroke-width:0.0763598;stroke-dashoffset:8.33687"
+       id="rect30970"
+       width="1.5430746"
+       height="3.8017697"
+       x="9.0076561"
+       y="6.7970161"
+       ry="0.39267275" />
+    <rect
+       style="fill:#ac9393;stroke:none;stroke-width:0.0930721;stroke-dashoffset:8.33687"
+       id="rect30972"
+       width="10.477297"
+       height="0.89429259"
+       x="0.067468926"
+       y="9.6985283"
+       ry="0.4471463" />
+    <path
+       style="fill:none;stroke:#008080;stroke-width:0.565;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 0.87523531,5.154136 c 0,0 -0.210831,3.849209 1.58407689,1.6129058 1.7949078,-2.236303 1.6662023,-4.640423 3.0659696,-4.640423 1.3997675,0 4.7512232,3.9693876 4.7512232,3.9693876 v 0"
+       id="path31089" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.56584px;line-height:1.25;font-family:sans-serif;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.164146"
+       x="-0.3072232"
+       y="5.4928055"
+       id="text35173"
+       transform="matrix(1.2639909,-8.1372335e-4,0.00130007,0.7911441,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan35171"
+         style="stroke-width:0.164146;fill:#008080"
+         x="-0.3072232"
+         y="5.4928055">F</tspan></text>
+  </g>
+</svg>
