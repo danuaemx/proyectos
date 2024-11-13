@@ -1,0 +1,2 @@
+Programa de cálculo de cinética inversa para robot de cuatro patas.
+Inicia en Rot(z,90°), con el ángulo de la cadera y rodilla.
